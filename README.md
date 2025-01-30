@@ -6,8 +6,18 @@ Esta es una herramienta para detectar vulnerabilidades XSS (Cross-Site Scripting
 
 1. **Instalar Firefox** en tu computadora.
 2. **Instalar Selenium** y **Geckodriver** para que la herramienta pueda interactuar con el navegador.
+3. Podemos forzar la instalacion de **selenium**: 
 
-### Cómo instalar
+   sudo pip3 install --break-system-packages selenium
+
+4. Ingresamos en el siguiente repositorio para instalar **Geckodriver**
+   https://github.com/mozilla/geckodriver/releases
+      tar -xvzf geckodriver-v0.35.0-linux64.tar.gz
+      sudo mv geckodriver /usr/local/bin
+      chmod +x /usr/local/bin/geckodriver
+      which geckodriver
+      
+### Cómo instalar XSS-Scanner
 
 1. Clona el repositorio:
 
