@@ -10,12 +10,13 @@ Esta es una herramienta para detectar vulnerabilidades XSS (Cross-Site Scripting
 
    sudo pip3 install --break-system-packages selenium
 
-4. Ingresamos en el siguiente repositorio para instalar **Geckodriver**
+4. Ingresamos en el siguiente repositorio para instalar **Geckodriver**:
+
    https://github.com/mozilla/geckodriver/releases
-      tar -xvzf geckodriver-v0.35.0-linux64.tar.gz
-      sudo mv geckodriver /usr/local/bin
-      chmod +x /usr/local/bin/geckodriver
-      which geckodriver
+   tar -xvzf geckodriver-v0.35.0-linux64.tar.gz
+   sudo mv geckodriver /usr/local/bin
+   chmod +x /usr/local/bin/geckodriver
+   which geckodriver
       
 ### Cómo instalar XSS-Scanner
 
