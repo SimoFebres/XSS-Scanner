@@ -11,8 +11,7 @@ Esta es una herramienta para detectar vulnerabilidades XSS (Cross-Site Scripting
 
 1. Clona el repositorio:
 
-   ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/SimoFebres/XSS-Scanner.git
 
 2. cd XSS-Scanner
 
