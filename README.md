@@ -31,10 +31,13 @@ Esta es una herramienta para detectar vulnerabilidades XSS (Cross-Site Scripting
 2. cd XSS-Scanner
 
 3. Instala las dependencias necesarias:
+
    pip install selenium
+
    pip install geckodriver-autoinstaller
 
-4. Ejecuta el script:
+5. Ejecuta el script:
+
    python3 xss_scanner.py
    
  
