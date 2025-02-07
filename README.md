@@ -1,7 +1,7 @@
 # XSS Vulnerability Scanner
 
 XSS-Scanner es una herramienta que automatiza las pruebas y la carga de payloads en campos vulnerables, específicamente para detectar vulnerabilidades de XSS en aplicaciones web. 
-Está hecha en Python, usando Selenium y Firefox como navegador, y tiene la capacidad de escanear campos en páginas web para detectar posibles fallos de seguridad.
+Está hecha en Python, usando Selenium y Firefox como navegador. Tiene la capacidad de escanear campos en páginas web para detectar posibles fallos de seguridad.
 La herramienta interactúa con páginas web, identifica los campos vulnerables y carga automáticamente diferentes payloads para detectar posibles vulnerabilidades de manera eficiente.
 
 ## Requisitos
