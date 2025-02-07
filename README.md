@@ -1,12 +1,14 @@
 # XSS Vulnerability Scanner
 
-Esta es una herramienta para detectar vulnerabilidades XSS (Cross-Site Scripting) en sitios web.
+XSS-Scanner es una herramienta que automatiza las pruebas y la carga de payloads en campos vulnerables, específicamente para detectar vulnerabilidades de XSS en aplicaciones web. 
+Está hecha en Python, usando Selenium y Firefox como navegador, y tiene la capacidad de escanear campos en páginas web para detectar posibles fallos de seguridad.
+La herramienta interactúa con páginas web, identifica los campos vulnerables y carga automáticamente diferentes payloads para detectar posibles vulnerabilidades de manera eficiente.
 
 ## Requisitos
 
 1. **Instalar Firefox** en tu computadora.
 2. **Instalar Selenium** y **Geckodriver** para que la herramienta pueda interactuar con el navegador.
-3. Podemos forzar la instalacion de **selenium**: 
+3. Podemos forzar la instalacion de **Selenium**: 
 
    sudo pip3 install --break-system-packages selenium
 
@@ -30,14 +32,8 @@ Esta es una herramienta para detectar vulnerabilidades XSS (Cross-Site Scripting
 
 2. cd XSS-Scanner
 
-3. Instala las dependencias necesarias:
-
-   pip install selenium
-
-   pip install geckodriver-autoinstaller
-
-5. Ejecuta el script:
+3. Ejecuta el script:
 
    python3 xss_scanner.py
    
- 
+ **Nota:** Para que la herramienta funcione correctamente, debes tener instalado correctamente **Selenium y Geckodriver.**
