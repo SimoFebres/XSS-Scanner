@@ -36,4 +36,6 @@ La herramienta interactúa con páginas web, identifica los campos vulnerables y
 
    python3 xss_scanner.py
    
- **Nota:** Para que la herramienta funcione correctamente, debes tener instalado correctamente **Selenium y Geckodriver.**
+ **Nota:** Para que la herramienta funcione correctamente, debes tener instalado correctamente **Selenium y Geckodriver.** 
+
+ **Si quieres saber mas acerca de mi herramienta, les envito a revisar mi Gitbook:** https://noon3.gitbook.io/blog/tools/xss-scanner.py
