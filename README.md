@@ -6,7 +6,7 @@ La herramienta interactúa con páginas web, identifica los campos vulnerables y
 
 ## Requisitos
 
-1. **Instalar Firefox** en tu computadora.
+1. **Instalar Firefox** en tu ordenador, si utilizas Kali-Linux como distribución, viene por defecto.
 2. **Instalar Selenium** y **Geckodriver** para que la herramienta pueda interactuar con el navegador.
 3. Podemos forzar la instalacion de **Selenium**: 
 
